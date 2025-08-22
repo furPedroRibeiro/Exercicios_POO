@@ -1,4 +1,4 @@
-package veiculos;
+package exercicio;
 
 public class Moto extends Veiculo{
     boolean eletrica;

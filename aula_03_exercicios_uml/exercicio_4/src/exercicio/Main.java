@@ -1,4 +1,4 @@
-package veiculos;
+package exercicio;
 
 public class Main {
     public static void main(String[] args){
@@ -16,5 +16,9 @@ public class Main {
 
         Veiculo audi3 = audiNovo;
         System.out.println(audi3);
+
+        Professor p1 = new Professor(450510, "João da silva");
+        p1.setVeiculo(audi3);
+        System.out.println(p1);
     }
 }
